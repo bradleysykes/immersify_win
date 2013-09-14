@@ -42,12 +42,18 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Text="Immersify"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
+            <Button Content="Rec" HorizontalAlignment="Left" Margin="94,157,0,0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Center" Height="72" Margin="94,59,88,0" TextWrapping="Wrap" Text="Create" TextAlignment="Center"  VerticalAlignment="Top" Width="274" FontSize="60"/>
+            <Button Content="File" HorizontalAlignment="Left" Margin="282,157,0,0" VerticalAlignment="Top"/>
+            <Button Content="Find" HorizontalAlignment="Left" Margin="174,354,0,0" VerticalAlignment="Top"/>
+            <HyperlinkButton Content="Quit App" HorizontalAlignment="Left" Margin="331,557,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click"/>
+            <Button Content="Settings" HorizontalAlignment="Left" Margin="6,537,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="72" Margin="0,282,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="456"/>
         </Grid>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are

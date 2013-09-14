@@ -16,3 +16,23 @@ c:\users\bradley\desktop\hackathon\immersify\Immersify\Immersify\obj\Debug\Immer
 c:\users\bradley\desktop\hackathon\immersify\Immersify\Immersify\obj\Debug\Immersify.dll
 c:\users\bradley\desktop\hackathon\immersify\Immersify\Immersify\obj\Debug\Immersify.pdb
 c:\users\bradley\desktop\hackathon\immersify\Immersify\Immersify\obj\Debug\XapCacheFile.xml
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Immersify.dll
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Immersify.pdb
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\AppManifest.xaml
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\Bin\Debug\Immersify_Debug_AnyCPU.xap
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\App.g.cs
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\EntryView.g.cs
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\MainPage.g.cs
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.g.resources
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.Resources.AppResources.resources
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.csproj.GenerateResource.Cache
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.dll
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.pdb
+C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\XapCacheFile.xml
