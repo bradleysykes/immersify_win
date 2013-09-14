@@ -47,15 +47,10 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
-            <Button Content="Rec" Click="" HorizontalAlignment="Left" Margin="94,157,0,0" VerticalAlignment="Top"/>
+            <Button Content="Rec" Click="rec_Click" HorizontalAlignment="Left" Margin="94,157,0,0" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Center" Height="72" Margin="94,59,88,0" TextWrapping="Wrap" Text="Create" TextAlignment="Center"  VerticalAlignment="Top" Width="274" FontSize="60"/>
-<<<<<<< HEAD
             <Button Content="File" HorizontalAlignment="Left" Margin="282,157,0,0" VerticalAlignment="Top" Click="createNewEntry_Click"/>
-=======
-            <Button Content="Create" HorizontalAlignment="Left" Margin="251,157,0,0" VerticalAlignment="Top"/>
->>>>>>> 24bdb938d28506e3220a039e3aae173540a83c17
             <Button Content="Find" HorizontalAlignment="Left" Margin="174,354,0,0" VerticalAlignment="Top"/>
-            <HyperlinkButton Content="Quit App" HorizontalAlignment="Left" Margin="331,557,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click"/>
             <Button Content="Settings" HorizontalAlignment="Left" Visibility="Collapsed" Margin="6,537,0,0" VerticalAlignment="Top"/>
         </Grid>
 
