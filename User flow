@@ -3,17 +3,46 @@ User enables app.
 if(first time)
 	create new *Learner*
 
-e*Lse
+else
 	ac*cess existing *Learner*
 
 User presses create;
 
-*Learner* creates a new *Entry*. 
+	*Learner* creates a new *Entry*. 
 
-User hits record. 
+	User hits record. 
 
-*Learner* accesses *Audio* via *Entry*
+		*Learner* accesses *Audio* via *Entry*
 
-*Leaner* asks *Audio* to make a new recording. 
+		*Leaner* asks *Audio* to make a new recording. 
+		*Audio* makes new recording by controlling microphone.
 
+	User presses record to stop recording.
+
+
+	
+	*Learner* asks *Audio* to tell mic to stop. 
+
+	*Learner* asks *Audio* to assign  recording to source attribute of MediaElement
+	
 	if(*Learner* wants to play audio)
+				User presses play
+
+	*Learner* presses stop
+
+	User wants to clear audio recording
+		*Learner* asks *Audio* to clear
+
+	User wants to change name
+		*Learner* asks *Audio* to change name by specifying new name. 
+
+
+	User wants to input native text
+
+	*Learner* asks *TextData* to create new text
+		*TextData* gets input text from user and stores it.
+
+		
+
+
+						

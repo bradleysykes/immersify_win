@@ -23,6 +23,10 @@ namespace Immersify.AppClasses
         {
             this.nativeText = getStringInput();
         }
+        
+        public override void clearContents() {
+            return;
+        }
 
 
         public void inputForeignText(String text)
@@ -37,10 +41,7 @@ namespace Immersify.AppClasses
             return text;
         }
 
-        public void clearContents()
-        {
-
-        }
+ 
 
 
 

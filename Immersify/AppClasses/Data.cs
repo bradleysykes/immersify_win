@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Immersify.AppClasses;
 
 namespace Immersify
 {
@@ -36,7 +37,7 @@ namespace Immersify
          hashCode()
          */
 
-        public abstract void clearContents() { }
+        public abstract void clearContents();
         //abstract method to clear data without deleting entry
 
 

@@ -93,6 +93,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AppClasses\AudioData.cs" />
+    <Compile Include="AppClasses\Category.cs" />
+    <Compile Include="AppClasses\Data.cs" />
+    <Compile Include="AppClasses\Entry.cs" />
+    <Compile Include="AppClasses\Folder.cs" />
+    <Compile Include="AppClasses\HighLevel.cs" />
+    <Compile Include="AppClasses\Language.cs" />
+    <Compile Include="AppClasses\Learner.cs" />
+    <Compile Include="AppClasses\TextData.cs" />
     <Compile Include="EntryView.xaml.cs">
       <DependentUpon>EntryView.xaml</DependentUpon>
     </Compile>

@@ -7,6 +7,8 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Immersify.Resources;
+using Immersify.AppClasses;
+
 
 namespace Immersify
 {
@@ -17,7 +19,7 @@ namespace Immersify
         /// </summary>
         /// <returns>The root frame of the Phone Application.</returns>
         public static PhoneApplicationFrame RootFrame { get; private set; }
-
+        public Learner lrn;
         /// <summary>
         /// Constructor for the Application object.
         /// </summary>
@@ -28,7 +30,6 @@ namespace Immersify
 
             // Standard XAML initialization
             InitializeComponent();
-
             // Phone-specific initialization
             InitializePhoneApplication();
 
@@ -61,6 +62,7 @@ namespace Immersify
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+       
         }
 
         // Code to execute when the application is activated (brought to foreground)

@@ -5,25 +5,37 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
+using System.Diagnostics;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Immersify.Resources;
+using Immersify.AppClasses;
 
 namespace Immersify
 {
     public partial class MainPage : PhoneApplicationPage
     {
         // Constructor
+
+        public Learner learner = new Learner();
+        
         public MainPage()
         {
             InitializeComponent();
-
-            // Sample code to localize the ApplicationBar
-            //BuildLocalizedApplicationBar();
         }
+
+
+        public void createNewEntry_Click(object sender, RoutedEventArgs e)
+        {
+            learner.createNewEntry();
+            NavigationService.Navigate(new Uri("/EntryView.xaml", UriKind.Relative));
+
+        }
+
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
+            
 
         }
 

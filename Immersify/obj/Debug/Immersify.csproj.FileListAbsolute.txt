@@ -36,3 +36,4 @@ C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj
 C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.dll
 C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\Immersify.pdb
 C:\Users\James Flynn\Desktop\hackathon\immersify_win\immersify_win\Immersify\obj\Debug\XapCacheFile.xml
+c:\users\bradley\desktop\hackathon\immersify\Immersify\Immersify\obj\Debug\EntryView.g.cs

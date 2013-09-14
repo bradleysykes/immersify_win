@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Immersify.AppClasses;
 namespace Immersify
 {
     public abstract class Folder
@@ -20,15 +20,13 @@ namespace Immersify
          String description
          int id (possible hashCode)
          */
-        private Map<Folder> childFolders;
+        //private Map<Folder> childFolders;
         private Folder parentFolder;
         private String description;
         private String name;
         private int id;
 
-        public Folder(){ //constructor
-            id++;
-        }
+        public Folder() { }
 
         /*Class methods
          add()
@@ -60,8 +58,8 @@ namespace Immersify
 
         public void copy() { } //implement
 
-        public Folder getSubFolder(String subFolderName) {
-            return new Folder();
+        public void getSubFolder(String subFolderName) {
+            return;
         }
 
         public void addNewSubFolder() {

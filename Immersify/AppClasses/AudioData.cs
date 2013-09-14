@@ -10,14 +10,27 @@ namespace Immersify.AppClasses
     {
         //field to store audio file
 
+        private bool recordingState = false;
+
         public AudioData() : base()
         {
             
         }
 
-        public void makeRecording()
+        public override void clearContents() {
+            return;
+        }
+
+        public void handleRecording()
         {
-            //do something to activate the mic and store audio file
+            this.recordingState = !this.recordingState;
+            if (recordingState) { }
+            //call startRecording in Audio
+            else { }
+            return;
+
+            //call stopRecording
+
         }
 
 
