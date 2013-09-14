@@ -39,7 +39,7 @@ namespace Immersify.AppClasses
         public void handleRecordingTitle() //on record button press
         {
             entry = createNewEntry();
-            Data audio = entry.getAudio();
+            AudioData audio = entry.getAudio();
             audio.handleRecording();
         }
 

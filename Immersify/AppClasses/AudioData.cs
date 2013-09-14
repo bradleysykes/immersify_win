@@ -41,14 +41,12 @@ namespace Immersify.AppClasses
 
         public void micStuff()
         {
-            DispatcherTimer dt = new DispatcherTimer();
-            dt.Interval = TimeSpan.FromMilliseconds(33);
-            dt.Tick += delegate { try { FrameworkDispatcher.Update(); } catch { } };
-            dt.Start();
-            microphone.BufferReady += new EventHandler<EventArgs>(microphone_BufferReady);
+      
         }
 
-    void microphone_BufferReady(object sender, EventArgs e)
+       
+
+    private void microphone_BufferReady(object sender, EventArgs e)
         {
             microphone.GetData(buffer);
             stream.Write(buffer, 0, buffer.Length);
@@ -56,8 +54,13 @@ namespace Immersify.AppClasses
 
         private void startRecording()
         {
+            DispatcherTimer dt = new DispatcherTimer();
+            dt.Interval = TimeSpan.FromMilliseconds(33);
+            dt.Start();
+            microphone.BufferReady += new EventHandler<EventArgs>(microphone_BufferReady);
             microphone.BufferDuration = TimeSpan.FromMilliseconds(1000);
             buffer = new byte[microphone.GetSampleSizeInBytes(microphone.BufferDuration)];
+            Debug.WriteLine("Start recording");
             microphone.Start();
         }
 
@@ -65,6 +68,7 @@ namespace Immersify.AppClasses
         {
             if (microphone.State == MicrophoneState.Started)
             {
+                Debug.WriteLine("Stop recording");
                 microphone.Stop();
             }
         }
@@ -78,9 +82,13 @@ namespace Immersify.AppClasses
 
         public void handleRecording()
         {
+            startRecording();
             this.recordingState = !this.recordingState;
             if (recordingState)
+            {
+                micStuff();
                 startRecording();
+            }
             else
                 stopRecording(); 
             return;
