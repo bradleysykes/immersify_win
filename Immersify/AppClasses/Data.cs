@@ -30,6 +30,8 @@ namespace Immersify
             return this.timeCreated.GetHashCode();
         }
 
+        public void handleRecording() { }
+
 
         /*Class methods
          * create()

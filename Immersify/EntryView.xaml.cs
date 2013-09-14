@@ -7,11 +7,16 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework;
+using Immersify.AppClasses;
 
 namespace Immersify
 {
     public partial class EntryView : PhoneApplicationPage
     {
+
+        private Learner learner = new Learner();
         public EntryView()
         {
             InitializeComponent();
@@ -20,6 +25,16 @@ namespace Immersify
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void play_Click(object sender, RoutedEventArgs e)
+        {
+            learner.handlePlayRecording();
+        }
+
+        private void textBox_Click(object sender, RoutedEventArgs e)
+        {
+            String str = YLANG.Text;
         }
     }
 }

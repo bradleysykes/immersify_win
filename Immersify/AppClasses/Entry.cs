@@ -24,8 +24,8 @@ namespace Immersify
         private String language = "None";
         private String name = "None";
         private int id;
-        private Data audio;
-        private Data text;
+        private AudioData audio;
+        private TextData text;
         
 
         public Entry() 
@@ -46,14 +46,14 @@ namespace Immersify
             this.language = language;
         }
 
-        public void makeAudio()
+        public AudioData getAudio()
         {
-
+            return this.audio;
         }
 
-        public void makeText()
+        public TextData getText()
         {
-
+            return this.text;
         }
 
         

@@ -29,8 +29,8 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <MediaElement HorizontalAlignment="Left" Height="100" Margin="0,49,0,0" VerticalAlignment="Top" Width="282" />
-            <TextBox HorizontalAlignment="Left" Height="304" Margin="0,213,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
-            <TextBox HorizontalAlignment="Left" Height="304" Margin="226,213,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+            <TextBox Name="FLANG" HorizontalAlignment="Left" Height="304" Margin="0,213,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220" GotFocus="textBox_Click"/>
+            <TextBox Name="YLANG" HorizontalAlignment="Left" Height="304" Margin="226,213,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
             <Button Content="Finish" HorizontalAlignment="Left" Margin="326,522,0,0" VerticalAlignment="Top"/>
             <Button Content="Save" HorizontalAlignment="Left" Margin="10,522,0,0" VerticalAlignment="Top" Click="Button_Click"/>
             <Button Content="Record" HorizontalAlignment="Left" Margin="326,49,0,0" VerticalAlignment="Top"/>

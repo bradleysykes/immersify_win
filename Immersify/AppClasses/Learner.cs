@@ -15,6 +15,7 @@ namespace Immersify.AppClasses
         private int id;
         private Dictionary<String, Entry> entries;
         private bool recordingState = false;
+        private Entry entry;
         
         
         public Learner() {
@@ -23,24 +24,33 @@ namespace Immersify.AppClasses
 
         
 
-        public void createNewEntry() { //on create press
-            Debug.WriteLine("Hi Bob");
-            /*Entry newEntry = new Entry();
-            entries.Add(newEntry.getName(), newEntry);*/
-            
+        public Entry createNewEntry() { //on create press
+            return new Entry();
+            //entries.Add(newEntry.getName(), newEntry);
             //call Entry object methods
             //store Entry in Dictionary when finished
         }
 
         public void handleCreate()
         {
-            createNewEntry();
+            entry = createNewEntry();
         }
 
         public void handleRecordingTitle() //on record button press
         {
-            createNewEntry();
-            //entry.handleRecording();
+            entry = createNewEntry();
+            Data audio = entry.getAudio();
+            audio.handleRecording();
+        }
+
+        public void textGrab()
+        {
+            entry.getText();
+        }
+
+        public void handlePlayRecording()
+        {
+            entry.getAudio().playRecording();
         }
 
         public void handleRecording()
@@ -52,9 +62,6 @@ namespace Immersify.AppClasses
             //navigate to folder system
         }
 
-        public void handleQuit()
-        {
-        }
 
 
 

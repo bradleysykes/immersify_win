@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Immersify.AppClasses
 {
-    class TextData : Data
+    public class TextData : Data
     {
 
         private String nativeText;
