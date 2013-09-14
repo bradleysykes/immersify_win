@@ -6,19 +6,29 @@ using System.Threading.Tasks;
 
 namespace Immersify
 {
-    public abstract class EntryData
+    public abstract class Data
     {
-        /*EntryData is an abstract class that defines methods and fields for extension by subclasses for audio and text data entries.
+        /*Data is an abstract class that defines methods and fields for extension by subclasses for audio and text data entries.
 
         /*Class fields
          * language
          * String description
          * some kind of container to hold actual stuff (text or audio
          */
+
+        private DateTime timeCreated;
+        private String name;
+        private String description;
               
-        public EntryData() {
-            
+        public Data() {
+            timeCreated = new DateTime();
         }
+
+        public int getHashCode()
+        {
+            return this.timeCreated.GetHashCode();
+        }
+
 
         /*Class methods
          * create()
@@ -26,7 +36,7 @@ namespace Immersify
          hashCode()
          */
 
-       public abstract void delete();
+        public abstract void clearContents() { }
         //abstract method to clear data without deleting entry
 
 

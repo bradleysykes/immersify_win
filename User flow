@@ -1,0 +1,19 @@
+User enables app. 
+
+if(first time)
+	create new *Learner*
+
+e*Lse
+	ac*cess existing *Learner*
+
+User presses create;
+
+*Learner* creates a new *Entry*. 
+
+User hits record. 
+
+*Learner* accesses *Audio* via *Entry*
+
+*Leaner* asks *Audio* to make a new recording. 
+
+	if(*Learner* wants to play audio)

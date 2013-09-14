@@ -20,13 +20,14 @@ namespace Immersify
          String description
          int id (possible hashCode)
          */
-
+        private Map<Folder> childFolders;
         private Folder parentFolder;
         private String description;
+        private String name;
         private int id;
 
         public Folder(){ //constructor
-
+            id++;
         }
 
         /*Class methods
@@ -38,8 +39,16 @@ namespace Immersify
          move() or copy()
          */
 
+
+
         public String getDescription(){
             return this.description;
+        }
+
+        public int hashCode() {
+            //implement function that will 1) generate unique int for each folder and 2) generate same int for same folder
+            //used for Map
+            return 0;
         }
 
         public void setDescription(String newDescription){
@@ -47,9 +56,16 @@ namespace Immersify
         }
 
 
-        public void move() { }
+        public void move() { } //implement
 
-        public void add() { }
+        public void copy() { } //implement
+
+        public Folder getSubFolder(String subFolderName) {
+            return new Folder();
+        }
+
+        public void addNewSubFolder() {
+        }
 
         
 
